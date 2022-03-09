@@ -1,0 +1,41 @@
+.messagePersonal {
+    text-align: center;
+    margin-block-start: 55px;
+    margin-block-end: 55px;
+}
+
+.messagePersonal-content {
+    max-inline-size: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.messagePersonal-titlesA {
+    font: var(--titlePer);
+    color: var(--purple);
+}
+
+.messagePersonal-titlesB {
+    font: var(--headLine5);
+    color: var(--purple);
+}
+
+
+.messagePersonal-cover img {
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+    .messagePersonal { 
+        padding-block-start: 250px;
+        padding-block-end: 250px;
+    }
+
+    .messagePersonal-cover img {
+        inline-size: 80px;
+        block-size: 80px;
+    }
+    
+}

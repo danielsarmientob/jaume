@@ -1,0 +1,25 @@
+.button {
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    padding-block-start: 0.8125rem;
+    padding-block-end: 0.8125rem;
+    border: 0.125rem solid var(--purple);
+    border-radius: .25rem;
+    font: var(--button);
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:active {
+    transform: scale(.95);
+}
+.button.is-primary {
+    background: var(--purple);
+    color: var(--white);
+}
+
+.button.is-secundary {
+    background: unset;
+    color: var(--purple);
+}

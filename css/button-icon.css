@@ -1,0 +1,17 @@
+.buttonIcon {
+    border: 2px solid var(--purple);
+    padding: 8px;
+    block-size: 24px;
+    border-radius: 4px;
+    background: var(--white);
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.buttonIcon:active {
+    transform: scale(.95);
+}
+.buttonIcon img {
+    vertical-align: middle;
+}

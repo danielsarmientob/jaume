@@ -1,0 +1,43 @@
+@import './button.css';
+@import './button-icon.css';
+@import './header.css';
+@import './social.css';
+@import './hero.css';
+@import './menu.css';
+@import './message-personal.css';
+@import './testimonio.css';
+@import './proyectos.css';
+@import './footer.css';
+@import './form.css';
+@import './title.css';
+
+:root {
+    font-size: 16px;
+    --fontBase: 'Poppins', sans-serif;
+    --fontBase2: 'Oxygen', sans-serif;
+    --headLine1: bold 15.83rem/9.625rem var(--fontBase);   
+    --headLine2: 700 3.6875rem/6rem var(--fontBase);    
+    --headLine3: 700 3rem/4.875rem var(--fontBase);    
+    --headLine4: 700 2.125rem/3.4375rem var(--fontBase);
+    --headLine5: 700 1.5rem/2.4375rem var(--fontBase);
+    --body1: 400 1rem/1.625rem var(--fontBase);
+    --body2: 400 0.875rem/1.4375rem var(--fontBase);
+    --button: 700 .875rem/1.43754rem var(--fontBase);
+    --caption: 400 .75rem/1.25rem var(--fontBase);
+    --titlePer: 400 1.5rem/2.4375rem var(--fontBase);
+    --oxygen: 700 1rem/1.625rem var(--fontBase2);
+    --oxygen2: 700 2.125rem/3.4375rem var(--fontBase2);
+    --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    --purple: #310A90;
+    --green: #42E2B8;
+    --white: #FFFFFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: var(--gradient);
+    min-block-size: 100vh;
+    font: var(--body1);
+}
